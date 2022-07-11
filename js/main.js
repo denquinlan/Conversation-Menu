@@ -25,5 +25,5 @@ const randomQuestion = [
   24: "In the last election you voted in, who did you vote for?",
   25: "What is your astrological sign?",
   26: "What is one of your favorite dishes to cook yourself?",
-  27: ""
+  27: "What's one fictional character you relate to?"
 ]
