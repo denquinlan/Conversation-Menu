@@ -1,4 +1,4 @@
-const randomQuestion = [
+const randomQuestion = {
   1: "What is one important skill that everyone should have?",
   2: "What is the best thing that happened to you this week?",
   3: "What is your favorite movie and why is it your favorite?",
@@ -25,5 +25,14 @@ const randomQuestion = [
   24: "In the last election you voted in, who did you vote for?",
   25: "What is your astrological sign?",
   26: "What is one of your favorite dishes to cook yourself?",
-  27: "What's one fictional character you relate to?"
-]
+  27: "What is one fictional character that you relate to?",
+  28: "What are three words you would use to describe your childhood?",
+  29: "What is something you fear?",
+  30: "If you could change one thing about yourself, what would it be?",
+  }
+
+function randomSelector {
+  let question = Math.floor(Math.random() * 31);
+  
+  return randomQuestion[question]
+}
